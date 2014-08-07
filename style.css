@@ -92,6 +92,8 @@ body {
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
+	
+	
 }
 
 .col-md-4 {
@@ -115,6 +117,14 @@ margin-left: -15px;
 	background: #2b2b2b;
 }
 
+.modal {
+ overflow-y: auto;
+}
+
+.modal-open {
+ overflow: auto;
+}
+
 
 .navbar-default {
 border-color: transparent;
@@ -136,10 +146,22 @@ border: 0px solid transparent;
 	font-size:20px;
 }
 
+.navbar-nav > li > a{
+	color: black;
+	font-weight: bold;
+}
+
+.navbar-nav > li > a:hover{
+	color: #009933;
+	opacity: .75;
+
+}
+
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-	background-color: #16a085;
-	color: white;
+	/*background-color: #16a085;*/
+	color: #009933;
+	opacity: .75;
 }
 .navbar-brand{
 	padding: 0;
@@ -148,6 +170,25 @@ border: 0px solid transparent;
 
 .top-nav {
 	margin-right: 15px;
+	width: 150px;
+	
+}
+
+.top-nav a{
+	color:black;
+	padding: 5px;
+	margin: 5px;
+}
+
+.donate{
+	background: #009933;
+	opacity: .75;
+	border-radius: 4px;
+	padding: 1%;
+}
+
+.donate a{
+	color: white;
 }
 
 hr {
@@ -409,7 +450,7 @@ a:after {
 	opacity: .75;
 	margin-top: 0px;
 	padding-top: 40px;
-	padding-bottom: 20px;
+	//padding-bottom: 20px;
 	border-bottom: 1px solid #ddd;
 	
 	
@@ -724,6 +765,8 @@ a:after {
 .blog-content {
 	padding-top: 10px;
 	background: #f2f2f2;
+	min-height: 100%;
+	
 }
 
 

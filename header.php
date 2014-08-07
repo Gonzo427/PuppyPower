@@ -47,22 +47,22 @@
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="icon icon-menu2" style="font-size:30px; color:#3498db;"></span>
           </button>
-          <a class="navbar-brand hidden-xs hidden-sm smoothScroll" href="#home"><img class="img-responsive" src="<?php bloginfo('template_url');?>/img/wordmark-logo-flat.png"></a>
+          <a class="navbar-brand hidden-xs hidden-sm smoothScroll" href="<?php bloginfo('url');?>/#home"><img class="img-responsive" src="<?php bloginfo('template_url');?>/img/wordmark-logo-flat.png"></a>
         </div>
 		<div class="row">
 		<div class="container">
 			<div class="top-nav pull-right">
-				<span class="login"><a href="#" class="smoothScroll">Log In</a></span> | <span class="donate"><a href="#about" class="smoothScroll">Donate</a></span>
+				<span class="login"><a href="#" class="smoothScroll">Log In</a></span>   <span class="donate"><a href="#about" class="smoothScroll">Donate</a></span>
 			</div>
 		</div>	
 		</div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-           
 			<li> <a href="<?php bloginfo('url');?>/#about" class="smoothScroll"> About</a></li>
 			<li> <a href="<?php bloginfo('url');?>/#get-involved" class="smoothScroll"> Get Involved</a></li>
 			<li> <a href="<?php bloginfo('url');?>/blog" class="smoothScroll"> Blog</a></li>
 			<li> <a href="<?php bloginfo('url');?>/#contact" class="smoothScroll"> Contact Us</a></li>
+		  </ul>
         </div><!--/.nav-collapse -->
       </div>
     </div>

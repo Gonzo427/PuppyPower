@@ -1,5 +1,6 @@
 <?php 
-
+/* Template Name : Member 
+*/
 ?>
 <?php get_header(); ?>
 	<div class="container ">
@@ -10,7 +11,7 @@
 			<div class="col-lg-8">
 				
 					<h2><?php the_title(); ?></h2>
-				
+					<?php post_thumbnail(); ?>
 					<?php the_content(); ?>
 				
 			</div>
